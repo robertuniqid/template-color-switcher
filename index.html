@@ -1,30 +1,64 @@
-<html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
 
-  <head>
-    <title>Template Color Switcher</title>
+  <title>Template Color Switcher</title>
 
-    <script type="text/javascript"
-            src="assets/scripts/jquery.js"></script>
-    <script type="text/javascript"
-            src="assets/scripts/templateColorSwitcher.js"></script>
-    <script type="text/javascript">
-      jQuery(document).ready(function(){
-        TemplateColorSwitcher.Init();
+  <script type="text/javascript"
+          src="assets/scripts/jquery.js"></script>
+  <script type="text/javascript"
+          src="assets/scripts/templateColorSwitcher.js"></script>
+  <script type="text/javascript"
+          src="assets/scripts/colorSwitcherPanel.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function(){
+      TemplateColorSwitcher.Init();
+      ColorSwitcherPanel.Init({
+        container       : $('.templateColorSwitcherPanel'),
+        switcherObject  : TemplateColorSwitcher
       });
-    </script>
-  </head>
+    });
+  </script>
 
-  <body>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/adaptive.css">
+</head>
+<body>
+  <div class="panel templateColorSwitcherPanel">
+    <div class="container-panel">
+      <div class="colors">
+        <h1>
+          color schemes
+        </h1>
+        <a class="colorToggle yellow" data-light-color="#f1c40f" data-dark-color="#e67e22"></a>
+        <a class="colorToggle green"  data-light-color="#2ecc71" data-dark-color="#27ae60"></a>
+        <a class="colorToggle purple" data-light-color="#9b59b6" data-dark-color="#8e44ad"></a>
+      </div>
+      <div class="version">
+        <h1>
+          versions
+        </h1>
+        <a class="colorVersionToggle light" data-color-type="light">light</a>
+        <a class="colorVersionToggle dark" data-color-type="dark">dark</a>
+      </div>
+    </div>
+    <div class="settings">
+      <div class="settings-icon togglePanel"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
 
-    <h1 style="display: block;text-align: center" class="template-based-element-color caca caca1 caca2">Enjoy The Disco While I'm developing this.</h1>
-    <h2 style="display: block;text-align: center" class="template-based-element-color caca caca1 caca2">Starts in 3 seconds.</h2>
+  <h1 style="display: block;text-align: center;margin: 50px 0 0 0" class="template-based-element-color caca caca1 caca2">Use the Panel on the Left for testing :)</h1>
 
-    <div class="template-based-element-border-color" style="width: 2px;height:2px"></div>
+  <div class="template-based-element-border-color" style="width: 2px;height:2px"></div>
 
-    <div style="width:960px;height:200px;margin: 0 auto;display: block;" class="template-based-element-background caca1 caca2 caca3 caca4 caca5"></div>
+  <div style="width:960px;height:200px;margin: 0 auto;display: block;" class="template-based-element-background caca1 caca2 caca3 caca4 caca5"></div>
 
-    <div style="width:960px;height:200px;margin: 0 auto;display: block;" class="template-based-element-background template-based-element-color"></div>
+  <div style="width:960px;height:200px;margin: 0 auto;display: block;" class="template-based-element-background template-based-element-color"></div>
 
-  </body>
 
+
+</body>
 </html>

@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
+}
+
+.clear {
+	clear: both;
+}
+
+.panel {
+	position: fixed;
+  top:25%;
+}
+
+.container-panel {
+	float: left;
+	padding: 17px 15px;
+	background: #1a1a1a;
+	width: 100px;
+}
+
+.container-panel h1 {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 12px;
+	line-height: 12px;
+	margin-bottom: 10px;
+}
+
+.container-panel a.yellow {
+	display: block;
+	width: 100px;
+	height: 25px;
+	background: #f1c40f;
+	margin-bottom: 10px;
+}
+
+.container-panel a.green {
+	display: block;
+	width: 100px;
+	height: 25px;
+	background: #2ecc71;
+	margin-bottom: 10px;
+}
+
+.container-panel a.purple {
+	display: block;
+	width: 100px;
+	height: 25px;
+	background: #8e44ad;
+	margin-bottom: 20px;
+}
+
+.container-panel a.light {
+	text-transform: uppercase;
+	font-size: 10px;
+	line-height: 25px;
+	text-align: center;
+	display: block;
+	width: 100px;
+	height: 25px;
+	background: #fff;
+	margin-bottom: 10px;
+	color: #000;
+}
+
+.container-panel a.dark {
+	text-transform: uppercase;
+	font-size: 10px;
+	line-height: 25px;
+	text-align: center;
+	display: block;
+	width: 100px;
+	height: 25px;
+	background: #000;
+	color: #fff;
+}
+
+.settings {
+	background: #1a1a1a;
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-left: 130px;
+}
+
+.settings-icon {
+	background: url(../img/settings.png) no-repeat center center;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	position: absolute;
+}

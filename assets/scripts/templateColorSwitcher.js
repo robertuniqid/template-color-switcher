@@ -4,34 +4,17 @@ var TemplateColorSwitcher = {
   elementDefaultValueDataPrefix: 'data-template-color-switcher-default-',
   effectedCSSAttributes        : 'data-template-color-switcher-css-attributes',
   templateColorIndicatorPrefix : 'template-based-element-',
-  currentDisplayColor          : false,
 
   options : {
-    color_map           : ['#1abc9c', '#2ecc71','#3498db', '#9b59b6', '#34495e'],
     transition_duration : 1000
   },
 
   Init : function(options) {
-    this.options = $.extend({}, this.options, options);
+    if(typeof options == "object")
+      this.options = $.extend({}, this.options, options);
 
     this._setElementListObject();
     this._setElementHelperDataTag();
-
-    var objectInstance = this;
-
-    setInterval(function(){
-      var color = (objectInstance.options.color_map instanceof Array ?
-          objectInstance.options.color_map
-              [
-              Math.floor(
-                  Math.random() * objectInstance.options.color_map.length
-              )
-              ]
-          : objectInstance.options.color_map);
-
-      objectInstance.SetGlobalColor(color);
-    }, 3000);
-
   },
 
   _setElementListObject : function() {

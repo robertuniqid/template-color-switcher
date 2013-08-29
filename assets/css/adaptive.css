@@ -1,0 +1,45 @@
+@media screen and (max-width: 1084px) {
+	.container-panel h1 {
+		font-size: 10px !important;
+	}
+	.container-panel {
+		width: 90px !important;
+	}
+	.container-panel a {
+		width: 90px !important;
+	}
+	.settings {
+		margin-left: 120px !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container-panel h1 {
+		font-size: 10px !important;
+	}
+	.container-panel {
+		width: 75px !important;
+	}
+	.container-panel a {
+		width: 75px !important;
+	}
+	.settings {
+		margin-left: 105px !important;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.container-panel h1 {
+		display: none;
+	}
+	.container-panel {
+		width: 25px !important;
+	}
+	.container-panel a {
+		width: 25px !important;
+		font-size: 7px !important;
+	}
+	.settings {
+		margin-left: 55px !important;
+	}
+}

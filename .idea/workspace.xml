@@ -2,21 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56c65e7-bac3-421c-b40e-d3c4a6956ba3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scripts/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/template-color-switcher.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scripts/templateColorSwitcher.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/settings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/adaptive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scripts/colorSwitcherPanel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scripts/templateColorSwitcher.js" afterPath="$PROJECT_DIR$/assets/scripts/templateColorSwitcher.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="template-color-switcher.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="e56c65e7-bac3-421c-b40e-d3c4a6956ba3" time="1377723745834" ignored="false" />
-    <file path="/index.html" changelist="e56c65e7-bac3-421c-b40e-d3c4a6956ba3" time="1377730067085" ignored="false" />
-    <file path="/templateColorSwitcher.js" changelist="e56c65e7-bac3-421c-b40e-d3c4a6956ba3" time="1377729835195" ignored="false" />
+    <file path="/index.html" changelist="e56c65e7-bac3-421c-b40e-d3c4a6956ba3" time="1377737359421" ignored="false" />
+    <file path="/templateColorSwitcher.js" changelist="e56c65e7-bac3-421c-b40e-d3c4a6956ba3" time="1377736625585" ignored="false" />
+    <file path="/templateColorSwitcherPanel.js" changelist="e56c65e7-bac3-421c-b40e-d3c4a6956ba3" time="1377737877517" ignored="false" />
+    <file path="/style.css" changelist="e56c65e7-bac3-421c-b40e-d3c4a6956ba3" time="1377736594962" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,16 +38,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="123" selection-start="687" selection-end="687" vertical-scroll-proportion="0.45382166">
+            <state line="47" column="43" selection-start="1630" selection-end="1630" vertical-scroll-proportion="-12.416667">
               <folding>
                 <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,19 +55,26 @@
       <file leaf-file-name="templateColorSwitcher.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/scripts/templateColorSwitcher.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="30" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
+            <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout_helper_dashboard.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../my-dashboard/assets/scripts/layout_helper_dashboard.js">
+      <file leaf-file-name="colorSwitcherPanel.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/scripts/colorSwitcherPanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="11" selection-start="1999" selection-end="2285" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1374411952000" expanded="false" signature="4189:4217" placeholder="..." />
-              </folding>
+            <state line="32" column="26" selection-start="984" selection-end="984" vertical-scroll-proportion="0.60902256">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="25" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,8 +98,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/assets/scripts/jquery.js" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/scripts/templateColorSwitcher.js" />
+        <option value="$PROJECT_DIR$/assets/scripts/templateColorSwitcherPanel.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/scripts/colorSwitcherPanel.js" />
       </list>
     </option>
   </component>
@@ -164,6 +175,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template-color-switcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template-color-switcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template-color-switcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template-color-switcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -176,6 +219,9 @@
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kadar" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets" />
     </key>
@@ -299,30 +345,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../my-dashboard/assets/scripts/layout_helper_dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="11" selection-start="1999" selection-end="2285" vertical-scroll-proportion="0.0">
+        <state line="49" column="11" selection-start="1999" selection-end="2285" vertical-scroll-proportion="0.39110428">
           <folding>
-            <marker date="1374411952000" expanded="false" signature="4189:4217" placeholder="..." />
+            <marker date="1374411952000" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scripts/templateColorSwitcher.js">
+    <entry file="file://$PROJECT_DIR$/assets/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="30" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/adaptive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.12781955">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="25" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="123" selection-start="687" selection-end="687" vertical-scroll-proportion="0.45382166">
+        <state line="47" column="43" selection-start="1630" selection-end="1630" vertical-scroll-proportion="-12.416667">
           <folding>
             <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/templateColorSwitcher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/colorSwitcherPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="26" selection-start="984" selection-end="984" vertical-scroll-proportion="0.60902256">
+          <folding />
         </state>
       </provider>
     </entry>
