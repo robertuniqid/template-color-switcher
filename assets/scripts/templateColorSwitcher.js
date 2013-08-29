@@ -18,7 +18,7 @@ var TemplateColorSwitcher = {
   },
 
   _setElementListObject : function() {
-    this.elementListObject  = $('[class^=' + this.templateColorIndicatorPrefix + ']');
+    this.elementListObject  = $('[class*=' + this.templateColorIndicatorPrefix + ']');
   },
 
   _setElementHelperDataTag : function() {
