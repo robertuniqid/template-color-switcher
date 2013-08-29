@@ -24,27 +24,19 @@ var ColorSwitcherPanel = {
   },
 
   _setPanelToggle : function() {
-    var objectInstance = this,
-        panelObject    = this.container.find('> .container-panel'),
-        settingsObject = this.container.find('> .settings');
+    var objectInstance = this;
 
     this.container.find('.togglePanel').bind('click', function(){
-      if(panelObject.is(':hidden')) {
-        panelObject.show().animate({
-          'width' : '100px'
+      if(objectInstance.container.hasClass('toggle-off')) {
+        objectInstance.container.animate({
+          'left' : '-135px'
         });
-        settingsObject.animate({
-          'margin-left' : '130px'
-        });
+        objectInstance.container.removeClass('toggle-off');
       } else {
-        panelObject.animate({
-          'width' : '0'
-        }, 'slow', function(){
-          panelObject.hide();
+        objectInstance.container.animate({
+          'left' : '0'
         });
-        settingsObject.animate({
-          'margin-left' : '0'
-        });
+        objectInstance.container.addClass('toggle-off');
       }
     });
   },
