@@ -1,3 +1,6 @@
+/*
+ * @author Andrei-Robert Rusu
+ */
 var ColorSwitcherPanel = {
 
   switcherObject           : false,
